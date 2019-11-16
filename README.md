@@ -2,7 +2,7 @@
 
 Recommendation of appointment location using big data and recommendation of surrounding hip place
 
-### Screenshot
+### Screenshots
 
 <img width="808" alt="Screen Shot 2019-11-16 at 5 11 58 PM" src="https://user-images.githubusercontent.com/33794732/68990354-7ab43080-0895-11ea-9113-d4180ea600c4.png">
 
