@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="2017.1.0.379" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name='viewport'
+   content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+<!-- js -->
+
+<style src = "https://api.mapbox.com/styles/v1/mapbox/dark-v9.html?fresh=true&title=true&access_token=pk.eyJ1Ijoic3VhbWoiLCJhIjoiY2ptc203cWl0MGM1dDNwbnVwemdjZTFnbyJ9.v4QFpeaIi88xAl73QkEBUg#0.0/0.000000/0.000000/0"></style>
+
+<script src="jquery-3.3.1.js"></script>
+
+<style>
+
+  body { margin:0; padding:0;  }
+  #map { position: relative; height:auto; width:auto;}
+  
+  pre.ui-distance {
+  position:absolute;
+  bottom:10px;
+  left:20%;
+  padding:5px 10px;
+  background:rgba(0,0,0,0);
+  color:#ff5;
+  font-size:11px;
+  line-height:18px;
+  border-radius:3px;
+  }
+
+</style>
+
+
+<!-- <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+   document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+   // Check that all required assets are uploaded and up-to-date
+   if (typeof Muse == "undefined")
+      window.Muse = {};
+   window.Muse.assets = {
+      "required" : [ "museutils.js", "museconfig.js",
+            "jquery.musepolyfill.bgsize.js", "jquery.watch.js",
+            "require.js", "_.css" ],
+      "outOfDate" : []
+   };
+</script> -->
+
+<!-- <script>
+   $(document).ready(function() {
+      $.ajax({
+         url : "./LoadFriendsToMap.do",
+         type : "post",
+         dataType : "json",
+         success: function(data){
+            alert(data.memberId);
+            객체.put("memberId", "jungdahee010")
+         }
+      })
+   }) 
+
+</script> -->
+
+<title>mainPage</title>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css.css"/>
+<link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867" />
+<link rel="stylesheet" type="text/css" href="css/master_full.css?crc=94902987" />
+<link rel="stylesheet" type="text/css" href="css/_.css?crc=66686160" id="pagesheet" />
+
+
+</head>
+<body>
+      <div id='map'></div>
+<div class="box1">
+   <table>
+   <tr>
+      <th>
+      <a href='myPage.html'><img src="images/profile.png" width="40" height="40" /></a>
+   </th>
+   <th>
+      <a href='mainPage.html'><img src="images/44-crop-u5812.png" width="80" height="40" /></a>
+   </th>
+   <th>
+      <a href='hotPlace.htsml'><img src="images/zz-crop-u5808.png" width="40" height="40" /></a>
+   </th>
+   </tr>
+</table>
+
+   <div class="fix1">
+      <form id="search1" class="example" action="action_page.php">
+         <input type="text" placeholder="지하철 역 or 친구이름" name="search">
+      </form>
+   
+   </div>
+
+   <div id="friends"></div>
+   <div id="station"></div>
+   
+   <button class="but" >중간 지점 찾기</button>
+   
+   <input type="hidden" id="hid">
+
+
+   <pre id='distance' class='ui-distance'>Click to place a marker</pre>
+
+
+
+   <button type="button" id="search1" class="fix00" onclick="location.href='addLocation.html'">+역추가</button>
+
+   <script type="text/javascript" src="mainPage.js"></script>
+   
+
+</body>
+</html>
