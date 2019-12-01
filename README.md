@@ -10,6 +10,11 @@ Recommendation of appointment location using big data and recommendation of surr
 
 2018.04.24 ~ 2018.11.30
 
+### 개발환경
+
+- HTML + JavaScript + jQuery
+- Spring Framework + Mysql
+
 ### 팀 정보
 
 IOI(IT + Occure + Influence: 아이티에 영향력을 일으킨다.) 
