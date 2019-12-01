@@ -4,7 +4,9 @@ Recommendation of appointment location using big data and recommendation of surr
 
 ### Screenshots
 
-<img width="808" alt="Screen Shot 2019-11-16 at 5 11 58 PM" src="https://user-images.githubusercontent.com/33794732/68990354-7ab43080-0895-11ea-9113-d4180ea600c4.png">
+<img width="270" alt="Screen Shot 2019-12-01 at 6 05 04 PM" src="https://user-images.githubusercontent.com/33794732/69911886-4fb90780-1465-11ea-8736-14b0e00fc773.png">
+<img width="267" alt="Screen Shot 2019-12-01 at 6 05 15 PM" src="https://user-images.githubusercontent.com/33794732/69911887-4fb90780-1465-11ea-8746-230b254e315e.png">
+<img width="269" alt="Screen Shot 2019-12-01 at 6 05 30 PM" src="https://user-images.githubusercontent.com/33794732/69911888-4fb90780-1465-11ea-8a3d-f6607c5d419b.png">
 
 ### 프로젝트 기간 
 
