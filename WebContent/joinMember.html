@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="2017.1.0.379" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name='viewport'
+	content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+<!-- js -->
+
+<script src="jquery-3.3.1.js"></script>
+
+<title>Insert title here</title>
+</head>
+
+<script>
+	$(document).ready(function(){
+		$("#btnCheckId").click(function(){
+			if($("#memberId").val() == "")
+				alert("아이디를 입력해주세요.");
+			else {
+				$.ajax({
+					url: "CheckMemberId.do",
+					type: "post",
+					data: {
+						"checkId" : $("#memberId").val()
+					},
+					datatype: "json",
+					success : function(data){
+						alert("success");
+						var result = JSON.parse(data);
+						alert(result.status);
+						if(result.status == "true"){
+							$("#Idmsg").text("사용 가능한 아이디입니다.");
+						}
+						
+						else
+							$("#Idmsg").text("사용 불가능한 아이디입니다.");
+					    }	
+					
+				    });
+				
+			}
+		})
+		
+		$("#btnCheckPw").keyup(function(){
+			if($("#memberPw").val() != $("#btnCheckPw").val()){
+				$("#Pwmsg").text("동일한 PASSWORD가 아닙니다.");
+			}
+			else
+				$("#Pwmsg").text("동일한 PASSWORD입니다.");
+		})
+		
+	});
+	
+</script>
+
+<body>
+	<form action="JoinMember.do" method="POST">
+		<!-- PHOTO: <input type="text" id="memberPhoto" name="memberPhoto"> -->
+		<br>ID: <input type="text" id="memberId" name="memberId">
+			<input type="button" id="btnCheckId" value="중복 확인">
+		<div id="Idmsg" style="color: red;"></div>
+		PASSWORD: <input type="password" id="memberPw" name="memberPw">
+		<br>PASSWORD CHECK: <input type="password" id="btnCheckPw" name="memberPw">
+		<div id="Pwmsg" style="color: red;"></div>
+		NAME: <input type="text" id="memberName" name="memberName">
+		<br>PHONE: <input type="text" id="memberPhone" name="memberPhone">
+		<br>STATION: <input type="text" id="memberStation" name="memberStation">
+		<br><input type="submit" value="회원가입">
+	</form>
+</body>
+</html>
