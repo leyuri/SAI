@@ -2,12 +2,6 @@
 
 Recommendation of appointment location using big data and recommendation of surrounding hip place
 
-### Screenshots
-
-<img width="270" alt="Screen Shot 2019-12-01 at 6 05 04 PM" src="https://user-images.githubusercontent.com/33794732/69911886-4fb90780-1465-11ea-8736-14b0e00fc773.png">
-<img width="267" alt="Screen Shot 2019-12-01 at 6 05 15 PM" src="https://user-images.githubusercontent.com/33794732/69911887-4fb90780-1465-11ea-8746-230b254e315e.png">
-<img width="269" alt="Screen Shot 2019-12-01 at 6 05 30 PM" src="https://user-images.githubusercontent.com/33794732/69911888-4fb90780-1465-11ea-8a3d-f6607c5d419b.png">
-
 ### 프로젝트 기간 
 
 2018.04.24 ~ 2018.11.30
@@ -61,8 +55,13 @@ sai (너와 나의 사이, 우리의 사이)
 
 작품의 목적인 약속시간을 잡는 데에 시간을 절약할 수 있으므로 실생활에 도움을 줄 수 있는 프로젝트로 기대됨. 상용화 될 가능성이 높고 빅데이터 활용을 통한 추천 시스템이므로 다른 분야에서도 유사 서비스로 확장 가능
 
-### 
+### Screenshots
+
+<img width="270" alt="Screen Shot 2019-12-01 at 6 05 04 PM" src="https://user-images.githubusercontent.com/33794732/69911886-4fb90780-1465-11ea-8736-14b0e00fc773.png">
+<img width="267" alt="Screen Shot 2019-12-01 at 6 05 15 PM" src="https://user-images.githubusercontent.com/33794732/69911887-4fb90780-1465-11ea-8746-230b254e315e.png">
+<img width="269" alt="Screen Shot 2019-12-01 at 6 05 30 PM" src="https://user-images.githubusercontent.com/33794732/69911888-4fb90780-1465-11ea-8a3d-f6607c5d419b.png">
 
 
+### Video link
 동영상: https://www.youtube.com/watch?v=_PFxNS8p6PI&t=3s
 
