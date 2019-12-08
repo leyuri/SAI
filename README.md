@@ -9,7 +9,8 @@ Recommendation of appointment location using big data and recommendation of surr
 ### 개발환경
 
 - HTML + JavaScript + jQuery
-- Spring Framework + Mysql
+- Java +Spring Framework + Mysql
+- Mapbox API + 공공데이터 포탈 API + kakao 좌표 변환 API
 
 ### 팀 정보
 
